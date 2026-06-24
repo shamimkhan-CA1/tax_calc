@@ -1,11 +1,11 @@
 import streamlit as st
 
-
+st.text("************************Your Tax details for Tax Year 2026 are************************")
 #NTN_No =st.number_input("Enter your NTN Number:")#int(input("Enter your NTN number: ")) 
 name = st.text_input("Enter your Name:")#str(input("Enter your name : "))
 #Birth_year = st.number_input("Enter your birth year:")#int(input("Enter your year of Birth: "))
 #Age = (2026 - Birth_year)
-#print("************************Your Tax details are************************")
+#st.text("************************Your Tax details for Tax Year 2026 are************************")
 income = st.number_input("Enter your Income:")#int(input("Please enter your annual income: "))
 
 tax = 0.0
@@ -27,6 +27,7 @@ Remainder = income - tax
 # if(Remainder>Expenditure):
 #     print(f"Increase_in_Assets = Re
 #st.success(f"Mr. {name}! your Annual Income is Rs.{income} \nAge: {Age} \nYou pay Rs.{tax} in taxes \nIncome after Tax is Rs.{Remainder}")
+#st.success("************************Your Tax details for Tax Year 2026 are:")
 st.success(f"Mr. {name}! your Income is Rs.{income}")
 st.success(f"Mr. {name}! You pay Rs.{tax} in taxes")
 st.success(f"Mr. {name}! Income after Tax is Rs.{Remainder}")

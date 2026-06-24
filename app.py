@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.text("************************Your Tax details for Tax Year 2026 are************************")
+st.text("************************Salary Tax calculation for Tax Year 2026************************")
 #NTN_No =st.number_input("Enter your NTN Number:")#int(input("Enter your NTN number: ")) 
 name = st.text_input("Enter your Name:")#str(input("Enter your name : "))
 #Birth_year = st.number_input("Enter your birth year:")#int(input("Enter your year of Birth: "))
